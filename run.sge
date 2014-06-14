@@ -1,0 +1,6 @@
+#!/bin/bash
+#$ -V
+#$ -l h_rt=:20:
+#$ -pe mpi 64
+#$ -cwd
+mpiexec -n 120 ./bin/fsim

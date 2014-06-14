@@ -1,0 +1,16 @@
+FROG SIMULATION
+-----------------------------------------------------------
+
+To compile:
+$ make
+
+To execute in the front-end:
+$ make test
+
+To execute the code in the back-end.
+$ qsub run.sge
+
+A file cell_values_per_year.txt will be generated as output containing the PopulationInfux and the InfectionLevel of each cell and each year. Also in the standard output the number of frogs and the current year will be printed every second.
+
+NOTE: The population tents to quickly grow up and exceed the population limit in a short number of years.
+
